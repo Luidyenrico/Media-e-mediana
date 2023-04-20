@@ -1,0 +1,59 @@
+body {
+    background: rgb(50, 50, 228);
+    font: normal 15pt arial;
+    
+
+}
+
+
+header {
+    color: white;
+    text-align: center;
+    
+
+
+
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width:500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+
+
+}
+
+ 
+#sectioninformacoes {
+background-color: #38006d;
+  border: 1px solid #00d9ff;
+  border-radius: 50px;
+  box-shadow: 10px 10px 30px rgb(0, 0, 0);
+  padding: 10px;
+}
+#sectioninformacoes {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+}
+
+#sectioninformacoes {
+    position: fixed;
+    left: 30px;
+    bottom: 100px;
+    width: 200px;
+}
+
+
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
