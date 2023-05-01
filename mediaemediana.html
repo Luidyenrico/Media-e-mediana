@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media e Mediana</title>
+    <link rel="stylesheet"  href="mediana.css">
+
+</head>
+
+<body>
+
+    <header><h1> <strong>Média e Mediana</strong></h1></header> 
+
+<section>
+  
+    <div> 
+
+        Escreva o numero <strong>A</strong>: <input type="number" name="inputNumA" id="inputNumA"> <!-- Cria um input para receber o 1º numero -->
+        <p>Escreva o numero <strong>B</strong>: <input type="number" name="inputNumB" id="inputNumB"></p> <!-- Cria um input para receber o 2º numero -->
+        <p><input type="button" value="Calcular" id="botaoCalcular"></p> <!-- Cria um botão para realizar o calculo -->
+
+    </div>
+
+    <section id="sectioninformacoes" style="display: none;"> <!-- Faz a informação ficar escondida até a função de mostrar ser ativada -->
+
+        <div id="divinformacoes">
+             O resultado será o menor inteiro possível C tal que a média e a mediana de A, B e C sejam iguais.
+         </div>
+
+    </section>
+
+    <div id="divResultado">
+
+    </div>
+
+</section>
+
+    <footer>
+    <p> 2021 - Fase 2 - Média e Mediana </p>
+    <div id = divBotao> 
+        <input type="button" value="INFO" id="botaoInfo"> <!-- Cria um botão para mostrar a info -->
+    </div>
+    </footer>
+
+<script src="mediana.js"></script>
+
+
+</body>
+</html>
